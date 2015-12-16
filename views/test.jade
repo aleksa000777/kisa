@@ -1,0 +1,21 @@
+doctype html
+html
+	head
+		link(rel="stylesheet", href="/style.css")
+	body
+ 
+		h1 my test
+		div
+			p hfhfhf
+				
+				a(href="http://google.com", target="_blank") Google
+
+
+		form(method="GET", action="/signup")
+			input(type="text", name="name", value="#{name}")
+			p #{name}
+
+		script.
+			var a=4;
+			//- alert("wwww");
+			console.log(a);

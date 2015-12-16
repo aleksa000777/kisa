@@ -1,0 +1,12 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "latest",
+    "gulp": "latest",
+    "html": "0.0.10",
+    "jade": "^1.9.2",
+    "less-middleware": "^2.0.1"
+  }
+}

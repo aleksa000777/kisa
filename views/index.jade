@@ -1,0 +1,33 @@
+html
+  head
+    link(href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css')
+    link(rel='stylesheet', type='text/css', href="/team.css")
+    link(rel='stylesheet', type='text/css', href="/contact.css")
+    link(rel='stylesheet', type='text/css', href="/header.css")
+    link(rel='stylesheet', type='text/css', href="/footer.css")
+    link(rel='stylesheet', type='text/css', href="/jquery.jcarousel.css")
+    link(rel='stylesheet', type='text/css', href='/skin.css')
+    link(href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css')  
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css")
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
+    script(src='/team.js')
+    script(src='/team2.js')
+    script(type='text/javascript', src='/navbar.js')
+    script(type='text/javascript', src='/contact.js')
+    script(type='text/javascript', src='/jquery-1.4.2.min.js')
+    script(type='text/javascript', src='/jquery.jcarousel.pack.js')
+    
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body
+    //script(src='/cycle2.js')  
+    //script(src='/carousel.js')
+    //script(src='/title.js')
+    //script(src='/pager.js')
+          //- look to css!!!!!
+    include ./header.jade
+    .container
+        block content
+    include ./footer.jade

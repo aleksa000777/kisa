@@ -1,0 +1,38 @@
+.navbar-default .navbar-nav > .active > a {
+  background-image: linear-gradient(to bottom, #3DBBD2 0, #e2e2e2 100%) !important;
+}
+
+.header, .footer {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  background-image: url(https://img0.etsystatic.com/000/0/6246936/il_570xN.351656684.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: 0px;
+  z-index: 99999;
+  overflow-x: hidden;
+  color: #FFFFFF;
+  padding: 5px; 
+  text-align: right;
+  margin-right: 20px; 
+}
+
+.footer {
+  @media (max-width:768px) {
+    text-align: center;
+    ul > li {
+      display: inline-block
+    }
+  }
+
+}
+
+.header {
+   @media (max-width:768px) {
+    ul li {
+      text-align: left;
+    }
+  }
+}

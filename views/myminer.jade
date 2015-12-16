@@ -1,0 +1,83 @@
+doctype html
+html
+  head
+    title Miner
+    |   
+    link(rel='stylesheet', type='text/css', href='/myminer.css')
+  body
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+    script(type='text/javascript', src='/myminer.js')
+    script.
+      console.log("nyam")
+    |   
+    header
+      .img
+        img(src='https://www.minerapp.com/img/website/miner-logo.png')
+    |   
+    .content
+      h2 Treat yourself.
+      img(src='/horse.jpg')
+      |     
+      h3 The latest fashion, sales, and trends from top designer brands.
+      |     
+      h4 Get your download link via email on May 1st.
+    |     
+    form#sign-up(name='sign-up', method='post', action='/subscribe')
+      .form-control
+        input(type='email', placeholder='email@domain.com', name='email')
+        |         
+        button(type='submit')
+          span Submit
+      |       
+      .form-control
+        p.message
+    |   
+    .slider
+      ul
+        li
+          img(src='https://www.minerapp.com/img/website/slides/phone-view3.png')
+        |        
+        li
+          img(src='https://www.minerapp.com/img/website/slides/phone-view1.png')
+        |        
+        li
+          img(src='https://www.minerapp.com/img/website/slides/phone-view2.png')
+    |   
+    footer
+      nav
+        ul
+          li
+            a(href='https://www.minerapp.com/about') About
+            span.separator |
+          |   
+          li
+            a(href='padding-left:', ;='') Blog
+            span.separator |
+          |   
+          li
+            a(href='https://www.minerapp.com/contact') Contact
+            span.separator |
+          |   
+          li
+            a(href='margin-left:', ;='') Privacy
+            span.separator |
+          |   
+          li
+            a(href='https://www.minerapp.com/terms') Terms of Service
+        |  
+        ul#rigth_social
+          li.pay
+            a(href='#')
+              img(src='//d3qyi52sicr8vr.cloudfront.net/img/website/social-pay.png?v=114a1f59ab9a6a4d1622052c59d0cd3e', width='55px')
+          |   
+          li.facebook
+            a(href='https://facebook.com/minerapp', target='_blank')
+              img(src='//d3qyi52sicr8vr.cloudfront.net/img/website/social-facebook.png?v=3cc17dcc67ac978e1f50ed3963a305ea', width='25')
+          |   
+          li.twitter
+            a(href='https://twitter.com/minerapp', target='_blank')
+              img(src='//d3qyi52sicr8vr.cloudfront.net/img/website/social-twitter.png?v=18e8aeeeabab29a435c8f019850853c8', width='25')
+          |   
+          li.instagram
+            a(href='https://instagram.com/minerapp', target='_blank')
+              img(src='//d3qyi52sicr8vr.cloudfront.net/img/website/social-instagram.png?v=2ba7aaf17d904b06f1b2bebf1aa17628', width='25')
